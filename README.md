@@ -1,21 +1,22 @@
-# Criação de um sistema bancário.
+# Desafio: Criando um sistema bancário
 
-Essa aplicação foi realizada com o intuito de resolver o desafio 1 do Bootcamp de ciência de dados da DIO.
-Claro que dei a minha personalizada :)
+## Objetivo Geral 
 
-### Depósito
+Criar um sistema bancário com as operações: sacar, depositar e visualizar extrato.
 
-Perguntar ao usuário que valor ele deseja depositar, precisa ser inteiro e positivo.
+## O desafio
+Fomos contratados por um grande banco para desenvolver o seu novo sistema. Esse banco deseja modernizar suas operações e para isso escolheu a linguagem Python. Para a primeira versão do sistema devemos implementar apenas 3 operações: depósito, saque e extrato.
 
-Deve ser possível depositar valores positivos
-Apenas 1 usuário
-não precisa informar a agencia e conta bancária
-Depositos dever ser armazenados em uma variável e exibidos na opração de extrato
+### Operação de depósito
+Deve ser possível depositar valores positivos para a minha conta bancária. A v1 do projeto trabalha apenas com 1 usuário, dessa forma não precisamos nos preocupar em identificar qual é o número da agência e conta bancária. Todos os depósitos devem ser armazenados em uma variável e exibidos na operação de extrato.
 
-### Saque
+### Operação de Saque
+O sistema deve permitir realizar 3 saques diários com limite máximo de R$ 500,00 por saque. Caso o usuário não tenha saldo em conta, o sistema deve exibir uma mensagem informando que não será possível sacar o dinheiro por falta de saldo. Todos os saques devem ser armazenados em uma variável e exibidos na operação de extrato.
 
-o sistema deve permitir apenas 3 saques diários com limite máximo de R$500 por saque.
-Caso o usuário não tenha saldo em cota, o sistema deve informar que não será possível sacar o dinheiro por falta de saldo.
+### Operação de extrato
+Essa operação deve listar todos os depósitos e saques realizados na conta. No fim da listagem deve ser exibido o saldo atual da conta. Se o extrato estiver em branco, exibir a mensagem: Não foram realizadas movimentações.
+Os valores devem ser exibidos utilizando o formato R$ xxx.xx, exemplo:
+1500.45 = R$ 1500.45
 
-### Extrato
-Deve manter o histórico de depósitos e retiradas alem de exibir o saldo
+Obs: O enunciado acima foi disponibilizado pelo instrutor do curso Guilherme Carvalho.
+Fiz algumas alterações para deixar o extrato mais realista.
