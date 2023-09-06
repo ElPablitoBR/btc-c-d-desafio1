@@ -1,4 +1,4 @@
-# Criação de uma conta Bancária com operações básicas.
+# Criação de um sistema bancário.
 
 Essa aplicação foi realizada com o intuito de resolver o desafio 1 do Bootcamp de ciência de dados da DIO.
 Claro que dei a minha personalizada :)
